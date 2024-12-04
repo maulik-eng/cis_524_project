@@ -48,7 +48,6 @@ Both programs follow the same structure:
    - Java uses arrays (e.g., `String[][]`), which are less flexible but offer performance benefits in certain situations.
   
 ## Running the Programs
-### Python:
 1. Clone or download this repository.
 2. Ensure you have Python 3.x and Java JDK installed in VS Code set up.
 3. Open python or java file in vs code and and press `Ctrl + F5` or use the integrated terminal after that follow below step to run the program:-

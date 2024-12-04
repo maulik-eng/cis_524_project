@@ -1,1 +1,50 @@
-# cis_524_project
+# Binary Search Contact Book Example
+
+## Introduction
+This repository contains two implementations of a binary search algorithm used to search for a contact by name in a sorted phone book. The program is written in two different languages: Python and Java.
+
+## Languages and Compilers
+- **Python**: The Python program is implemented using Python 3.8+.
+  - To run the Python program, you can use any Python 3.x interpreter.
+  - Install Python from https://www.python.org/downloads/.
+  
+- **Java**: The Java program is implemented using Java 8+.
+  - To run the Java program, you need to have the JDK (Java Development Kit) installed.
+  - You can download the JDK from https://www.oracle.com/java/technologies/javase-jdk11-downloads.html.
+  - The program can be run using an IDE like IntelliJ IDEA or Eclipse, or directly from the command line using the `javac` and `java` commands.
+
+## Code Structure
+Both programs follow the same structure:
+1. A **binary search function** that searches for a contact in a sorted contact book.
+2. A **real-time example** where the user is prompted to search for a contact.
+
+### Python Code
+- The Python program is structured with a function `binary_search` that performs the binary search on a sorted list of tuples.
+- The `phone_book_search` function takes user input and performs the search.
+
+### Java Code
+- The Java program is structured with a `binarySearch` method that performs the binary search on a sorted 2D array.
+- The `contactBookSearch` method prompts the user to input a contact name and performs the search.
+
+## Major Differences Between Python and Java
+1. **Typing System**:
+   - Python is **dynamically typed**, meaning variable types are inferred at runtime.
+   - Java is **statically typed**, meaning variable types must be explicitly defined at compile time.
+
+2. **Syntax**:
+   - Python has a more concise and readable syntax, without the need for explicitly defining data types or requiring a class for execution.
+   - Java requires a class and a `main` method to run the program. It also requires explicit type declarations for all variables.
+
+3. **Function Declaration**:
+   - In Python, function signatures are simple and flexible.
+   - In Java, function signatures are more formal, requiring type definitions for both parameters and return types.
+
+4. **Data Structures**:
+   - Python uses lists (e.g., `list of tuples`), which are more flexible and easy to work with.
+   - Java uses arrays (e.g., `String[][]`), which are less flexible but offer performance benefits in certain situations.
+
+## Running the Programs
+### Python:
+1. Clone or download this repository.
+2. Ensure you have Python 3.x installed.
+3. Run the program by executing the following command in your terminal or command prompt:

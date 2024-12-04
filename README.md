@@ -55,5 +55,5 @@ Both programs follow the same structure:
    	- For Python :- python3 Binary_serch_for_phonebook.py
    	- For Java :-
    		- To compile: `javac contact_booksearch.java`
-	         - To run: `java contact_booksearch`
+	        - To run: `java contact_booksearch`
    	

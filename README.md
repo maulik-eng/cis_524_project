@@ -13,7 +13,7 @@ This repository contains two implementations of a binary search algorithm used t
     4. Open the Python script file in VS Code and run it by pressing `Ctrl + F5` or using the integrated terminal (`python3 Binary_serch_for_phonebook.py`).
   
 --> **Java**: The Java program is implemented using Java 8+.
-   To get started with Java in VS Code:
+   - To get started with Java in VS Code:
     1. Install **Java Development Kit (JDK)** from https://www.oracle.com/java/technologies/javase-jdk11-downloads.html.
     2. Install **Visual Studio Code** from https://code.visualstudio.com/Download.
     3. Install the **Java Extension Pack** for VS Code (search for "Java Extension Pack" in the Extensions marketplace inside VS Code).

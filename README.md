@@ -14,12 +14,12 @@ This repository contains two implementations of a binary search algorithm used t
   
 --> **Java**: The Java program is implemented using Java 8+.
    - To get started with Java in VS Code:
-    1. Install **Java Development Kit (JDK)** from https://www.oracle.com/java/technologies/javase-jdk11-downloads.html.
-    2. Install **Visual Studio Code** from https://code.visualstudio.com/Download.
-    3. Install the **Java Extension Pack** for VS Code (search for "Java Extension Pack" in the Extensions marketplace inside VS Code).
-    4. Open the Java file in VS Code, compile and run it directly from the VS Code terminal using the following commands:
-       - To compile: `javac contact_booksearch.java`
-       - To run: `java contact_booksearch`
+	    1. Install **Java Development Kit (JDK)** from https://www.oracle.com/java/technologies/javase-jdk11-downloads.html.
+	    2. Install **Visual Studio Code** from https://code.visualstudio.com/Download.
+	    3. Install the **Java Extension Pack** for VS Code (search for "Java Extension Pack" in the Extensions marketplace inside VS Code).
+	    4. Open the Java file in VS Code, compile and run it directly from the VS Code terminal using the following commands:
+	       - To compile: `javac contact_booksearch.java`
+	       - To run: `java contact_booksearch`
 
 ## Code Structure
 Both programs follow the same structure:

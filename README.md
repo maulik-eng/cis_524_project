@@ -3,15 +3,23 @@
 ## Introduction
 This repository contains two implementations of a binary search algorithm used to search for a contact by name in a sorted phone book. The program is written in two different languages: Python and Java.
 
-## Languages and Compilers
-- **Python**: The Python program is implemented using Python 3.8+.
-  - To run the Python program, you can use any Python 3.x interpreter.
-  - Install Python from https://www.python.org/downloads/.
+## Languages and Tools
+--> **Python**: The Python program is implemented using Python 3.8+.
+  - You can write and run the Python program using **Visual Studio Code (VS Code)**.
+  - To get started with Python in VS Code:
+    1. Install **Python** from https://www.python.org/downloads/.
+    2. Install **Visual Studio Code** from https://code.visualstudio.com/Download.
+    3. Install the **Python extension** for VS Code (search for "Python" in the Extensions marketplace inside VS Code).
+    4. Open the Python script file in VS Code and run it by pressing `Ctrl + F5` or using the integrated terminal (`python3 Binary_serch_for_phonebook.py`).
   
-- **Java**: The Java program is implemented using Java 8+.
-  - To run the Java program, you need to have the JDK (Java Development Kit) installed.
-  - You can download the JDK from https://www.oracle.com/java/technologies/javase-jdk11-downloads.html.
-  - The program can be run using an IDE like IntelliJ IDEA or Eclipse, or directly from the command line using the `javac` and `java` commands.
+--> **Java**: The Java program is implemented using Java 8+.
+   To get started with Java in VS Code:
+    1. Install **Java Development Kit (JDK)** from https://www.oracle.com/java/technologies/javase-jdk11-downloads.html.
+    2. Install **Visual Studio Code** from https://code.visualstudio.com/Download.
+    3. Install the **Java Extension Pack** for VS Code (search for "Java Extension Pack" in the Extensions marketplace inside VS Code).
+    4. Open the Java file in VS Code, compile and run it directly from the VS Code terminal using the following commands:
+       - To compile: `javac ContactBookSearch.java`
+       - To run: `java ContactBookSearch`
 
 ## Code Structure
 Both programs follow the same structure:
@@ -46,5 +54,6 @@ Both programs follow the same structure:
 ## Running the Programs
 ### Python:
 1. Clone or download this repository.
-2. Ensure you have Python 3.x installed.
-3. Run the program by executing the following command in your terminal or command prompt:
+2. Ensure you have Python 3.x installed and VS Code set up.
+3. Open the Python script file in VS Code and press `Ctrl + F5` or use the integrated terminal:
+

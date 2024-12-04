@@ -18,13 +18,13 @@ This repository contains two implementations of a binary search algorithm used t
     2. Install **Visual Studio Code** from https://code.visualstudio.com/Download.
     3. Install the **Java Extension Pack** for VS Code (search for "Java Extension Pack" in the Extensions marketplace inside VS Code).
     4. Open the Java file in VS Code, compile and run it directly from the VS Code terminal using the following commands:
-       - To compile: `javac ContactBookSearch.java`
-       - To run: `java ContactBookSearch`
+       - To compile: `javac contact_booksearch.java`
+       - To run: `java contact_booksearch`
 
 ## Code Structure
 Both programs follow the same structure:
-1. A **binary search function** that searches for a contact in a sorted contact book.
-2. A **real-time example** where the user is prompted to search for a contact.
+1. A "binary search function" that searches for a contact in a sorted contact book.
+2. A real-time example where the user is prompted to search for a contact.
 
 ### Python Code
 - The Python program is structured with a function `binary_search` that performs the binary search on a sorted list of tuples.

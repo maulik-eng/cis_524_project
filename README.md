@@ -10,17 +10,13 @@ This repository contains two implementations of a binary search algorithm used t
     1. Install **Python** from https://www.python.org/downloads/.
     2. Install **Visual Studio Code** from https://code.visualstudio.com/Download.
     3. Install the **Python extension** for VS Code (search for "Python" in the Extensions marketplace inside VS Code).
-    4. Open the Python script file in VS Code and run it by pressing `Ctrl + F5` or using the integrated terminal (`python3 Binary_serch_for_phonebook.py`).
   
 --> **Java**: The Java program is implemented using Java 8+.
    - To get started with Java in VS Code:
 	    1. Install **Java Development Kit (JDK)** from https://www.oracle.com/java/technologies/javase-jdk11-downloads.html.
 	    2. Install **Visual Studio Code** from https://code.visualstudio.com/Download.
 	    3. Install the **Java Extension Pack** for VS Code (search for "Java Extension Pack" in the Extensions marketplace inside VS Code).
-	    4. Open the Java file in VS Code, compile and run it directly from the VS Code terminal using the following commands:
-	       - To compile: `javac contact_booksearch.java`
-	       - To run: `java contact_booksearch`
-
+	
 ## Code Structure
 Both programs follow the same structure:
 1. A "binary search function" that searches for a contact in a sorted contact book.
@@ -50,3 +46,14 @@ Both programs follow the same structure:
 4. **Data Structures**:
    - Python uses lists (e.g., `list of tuples`), which are more flexible and easy to work with.
    - Java uses arrays (e.g., `String[][]`), which are less flexible but offer performance benefits in certain situations.
+  
+## Running the Programs
+### Python:
+1. Clone or download this repository.
+2. Ensure you have Python 3.x and Java JDK installed in VS Code set up.
+3. Open python or java file in vs code and and press `Ctrl + F5` or use the integrated terminal after that follow below step to run the program:-
+   	For Python :- python3 Binary_serch_for_phonebook.py
+   	For Java :-
+   		- To compile: `javac contact_booksearch.java`
+	         - To run: `java contact_booksearch`
+   	

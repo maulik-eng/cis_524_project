@@ -32,8 +32,8 @@ Both programs follow the same structure:
 
 ## Major Differences Between Python and Java
 1. **Typing System**:
-   - Python is **dynamically typed**, meaning variable types are inferred at runtime.
-   - Java is **statically typed**, meaning variable types must be explicitly defined at compile time.
+   - Python is dynamically typed, meaning variable types are inferred at runtime.
+   - Java is statically typed, meaning variable types must be explicitly defined at compile time.
 
 2. **Syntax**:
    - Python has a more concise and readable syntax, without the need for explicitly defining data types or requiring a class for execution.

@@ -11,24 +11,15 @@ This repository contains two implementations of a binary search algorithm used t
     2. Install **Visual Studio Code** from https://code.visualstudio.com/Download.
     3. Install the **Python extension** for VS Code (search for "Python" in the Extensions marketplace inside VS Code).
   
---> **Java**: The Java program is implemented using Java 8+.
-   - To get started with Java in VS Code:
-	    1. Install **Java Development Kit (JDK)** from https://www.oracle.com/java/technologies/javase-jdk11-downloads.html.
-	    2. Install **Visual Studio Code** from https://code.visualstudio.com/Download.
-	    3. Install the **Java Extension Pack** for VS Code (search for "Java Extension Pack" in the Extensions marketplace inside VS Code).
+--> **Haskell**
+   -The Haskell implementations use the functional programming paradigm to perform binary search in a contact book.
+   -You can write and run the Haskell programs using Tutorialspoint's Online Haskell Compiler:Access it at Tutorialspoint Haskell Compiler.
+
 	
 ## Code Structure
 Both programs follow the same structure:
 1. A "binary search function" that searches for a contact in a sorted contact book.
 2. A real-time example where the user is prompted to search for a contact.
-
-### Python Code
-- The Python program is structured with a function `binary_search` that performs the binary search on a sorted list of tuples.
-- The `phone_book_search` function takes user input and performs the search.
-
-### Java Code
-- The Java program is structured with a `binarySearch` method that performs the binary search on a sorted 2D array.
-- The `contactBookSearch` method prompts the user to input a contact name and performs the search.
 
 ## Major Differences Between Python and Java
 1. **Typing System**:
@@ -49,10 +40,8 @@ Both programs follow the same structure:
   
 ## Running the Programs
 1. Clone or download this repository.
-2. Ensure you have Python 3.x and Java JDK installed in VS Code set up.
-3. Open python or java file in vs code and and press `Ctrl + F5` or use the integrated terminal after that follow below step to run the program:-
+2. Run the Haskell program using Tutorialspoint's Online Haskell Compiler:Copy and paste the code into the Tutorialspoint Haskell Compiler.
+Click Execute to run the program.
+3. Ensure you have Python 3.x and Java JDK installed in VS Code set up.
+4. Open python or java file in vs code and and press `Ctrl + F5` or use the integrated terminal after that follow below step to run the program:-
    	- For Python :- python3 Binary_serch_for_phonebook.py
-   	- For Java :-
-   		- To compile: `javac contact_booksearch.java`
-	        - To run: `java contact_booksearch`
-   	

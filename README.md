@@ -23,17 +23,17 @@ Both programs follow the same structure:
 
 ## Comparison Between Haskell and Python Implementations
 1. Data Handling
--Haskell: Uses immutable data structures. Sorting and binary search do not modify the original list but return new values or states.
--Python: Uses mutable data structures. The phone book remains unaltered, but Python's inherent mutability allows modifications if needed.
+--Haskell: Uses immutable data structures. Sorting and binary search do not modify the original list but return new values or states.
+--Python: Uses mutable data structures. The phone book remains unaltered, but Python's inherent mutability allows modifications if needed.
 2. Functional vs. Imperative Paradigm
--Haskell: Purely functional, emphasizes recursion and immutability. Binary search is implemented using recursion, and sorting is a standalone, side-effect-free function.
--Python: Imperative and procedural. Binary search relies on looping constructs, and mutable structures facilitate direct in-place modifications if necessary.
+--Haskell: Purely functional, emphasizes recursion and immutability. Binary search is implemented using recursion, and sorting is a standalone, side-effect-free function.
+--Python: Imperative and procedural. Binary search relies on looping constructs, and mutable structures facilitate direct in-place modifications if necessary.
 3. Parameter Passing Techniques
--Haskell: Parameters are passed by value. Due to immutability, any changes result in a new value rather than altering the original input.
--Python: Pass-by-object-reference (mutable objects like lists can be modified).
+--Haskell: Parameters are passed by value. Due to immutability, any changes result in a new value rather than altering the original input.
+--Python: Pass-by-object-reference (mutable objects like lists can be modified).
 4. Scoping
--Haskell: Scoping is tied to function definitions and where or let bindings, with local variables existing only within their enclosing function or block.
--Python: Block-level scoping, with variables defined at a function or module level persisting across their defined blocks.
+--Haskell: Scoping is tied to function definitions and where or let bindings, with local variables existing only within their enclosing function or block.
+--Python: Block-level scoping, with variables defined at a function or module level persisting across their defined blocks.
   
 ## Running the Programs
 1. Clone or download this repository.

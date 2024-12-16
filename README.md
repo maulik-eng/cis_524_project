@@ -1,7 +1,7 @@
 # Binary Search Contact Book Example
 
 ## Introduction
-This repository contains two implementations of a binary search algorithm used to search for a contact by name in a sorted phone book. The program is written in two different languages: Python and Java.
+This repository contains two implementations of a binary search algorithm used to search for a contact by name in a sorted phone book. The program is written in two different languages: Python and Haskell.
 
 ## Languages and Tools
 --> **Python**: The Python program is implemented using Python 3.8+.
@@ -21,22 +21,19 @@ Both programs follow the same structure:
 1. A "binary search function" that searches for a contact in a sorted contact book.
 2. A real-time example where the user is prompted to search for a contact.
 
-## Major Differences Between Python and Java
-1. **Typing System**:
-   - Python is dynamically typed, meaning variable types are inferred at runtime.
-   - Java is statically typed, meaning variable types must be explicitly defined at compile time.
-
-2. **Syntax**:
-   - Python has a more concise and readable syntax, without the need for explicitly defining data types or requiring a class for execution.
-   - Java requires a class and a `main` method to run the program. It also requires explicit type declarations for all variables.
-
-3. **Function Declaration**:
-   - In Python, function signatures are simple and flexible.
-   - In Java, function signatures are more formal, requiring type definitions for both parameters and return types.
-
-4. **Data Structures**:
-   - Python uses lists (e.g., `list of tuples`), which are more flexible and easy to work with.
-   - Java uses arrays (e.g., `String[][]`), which are less flexible but offer performance benefits in certain situations.
+##Comparison Between Haskell and Python Implementations
+1. Data Handling
+Haskell: Uses immutable data structures. Sorting and binary search do not modify the original list but return new values or states.
+Python: Uses mutable data structures. The phone book remains unaltered, but Python's inherent mutability allows modifications if needed.
+2. Functional vs. Imperative Paradigm
+Haskell: Purely functional, emphasizes recursion and immutability. Binary search is implemented using recursion, and sorting is a standalone, side-effect-free function.
+Python: Imperative and procedural. Binary search relies on looping constructs, and mutable structures facilitate direct in-place modifications if necessary.
+3. Parameter Passing Techniques
+Haskell: Parameters are passed by value. Due to immutability, any changes result in a new value rather than altering the original input.
+Python: Pass-by-object-reference (mutable objects like lists can be modified).
+4. Scoping
+Haskell: Scoping is tied to function definitions and where or let bindings, with local variables existing only within their enclosing function or block.
+Python: Block-level scoping, with variables defined at a function or module level persisting across their defined blocks.
   
 ## Running the Programs
 1. Clone or download this repository.

@@ -34,6 +34,7 @@ Both programs follow the same structure:
 4. Scoping
 - Haskell: Scoping is tied to function definitions and where or let bindings, with local variables existing only within their enclosing function or block.
 - Python: Block-level scoping, with variables defined at a function or module level persisting across their defined blocks.
+--> The primary distinction between these two binary search implementations is that Python uses the imperative paradigm, which uses mutable data structures and a loop to iteratively update the search boundaries and locate the contact, while Haskell follows the functional programming paradigm, which emphasizes immutability and recursion for traversing the list and reducing the search range.
   
 ## Running the Programs
 1. Clone or download this repository.

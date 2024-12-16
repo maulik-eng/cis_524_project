@@ -23,8 +23,8 @@ Both programs follow the same structure:
 
 ## Comparison Between Haskell and Python Implementations
 1. Data Handling
---Haskell: Uses immutable data structures. Sorting and binary search do not modify the original list but return new values or states.
---Python: Uses mutable data structures. The phone book remains unaltered, but Python's inherent mutability allows modifications if needed.
+-->Haskell: Uses immutable data structures. Sorting and binary search do not modify the original list but return new values or states.
+-->Python: Uses mutable data structures. The phone book remains unaltered, but Python's inherent mutability allows modifications if needed.
 2. Functional vs. Imperative Paradigm
 --Haskell: Purely functional, emphasizes recursion and immutability. Binary search is implemented using recursion, and sorting is a standalone, side-effect-free function.
 --Python: Imperative and procedural. Binary search relies on looping constructs, and mutable structures facilitate direct in-place modifications if necessary.
